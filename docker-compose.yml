@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  httpd:
+    image: httpd:2.4
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./conf/ssl/server.crt:/usr/local/apache2/conf/server.crt
+      - ./conf/ssl/server.key:/usr/local/apache2/conf/server.key
+      - ./conf/httpd-vhosts.conf:/usr/local/apache2/conf/httpd-vhosts.conf
+      - ./conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./conf/httpd-ssl.conf:/usr/local/apache2/conf/httpd-ssl.conf
+      - ./htdocs:/usr/local/apache2/htdocs/
+      - ./logs:/usr/local/apache2/logs

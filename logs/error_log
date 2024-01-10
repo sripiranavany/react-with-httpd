@@ -1,0 +1,14 @@
+[Wed Jan 10 09:09:50.863920 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:09:50.882787 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:09:50.890608 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.58 (Unix) OpenSSL/3.0.11 configured -- resuming normal operations
+[Wed Jan 10 09:09:50.890745 2024] [core:notice] [pid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jan 10 09:10:25.444298 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:10:25.461489 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:10:25.467798 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.58 (Unix) OpenSSL/3.0.11 configured -- resuming normal operations
+[Wed Jan 10 09:10:25.467945 2024] [core:notice] [pid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jan 10 09:15:09.615251 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Jan 10 09:15:20.889280 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:15:20.910490 2024] [ssl:warn] [pid 1] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 10 09:15:20.918418 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.58 (Unix) OpenSSL/3.0.11 configured -- resuming normal operations
+[Wed Jan 10 09:15:20.918619 2024] [core:notice] [pid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jan 10 09:17:11.662342 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
